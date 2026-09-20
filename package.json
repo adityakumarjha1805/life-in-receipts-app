@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npm --prefix app run dev -- --host 0.0.0.0",
+    "build": "npm --prefix app run build",
+    "test": "npm --prefix app run test",
+    "lint": "npm --prefix app run lint",
+    "preview": "npm --prefix app run preview -- --host 0.0.0.0"
+  },
+  "dependencies": {
+    "three": "^0.186.0"
+  }
+}
